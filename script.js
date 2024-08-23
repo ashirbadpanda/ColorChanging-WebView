@@ -1,5 +1,10 @@
 let h1 = document.querySelector("h1")
 
+
+if (window.innerWidth < 1024) {
+    document.querySelector('meta[name="viewport"]').setAttribute('content', 'width=1024');
+}
+
 function violet(){
     h1.style.backgroundColor="violet"
 }
