@@ -1,4 +1,5 @@
 let h1 = document.querySelector("h1")
+let p1 = document.querySelector("p1")
 
 
 if (window.innerWidth < 1024) {
@@ -7,6 +8,7 @@ if (window.innerWidth < 1024) {
 
 function violet(){
     h1.style.backgroundColor="violet"
+    
 }
 
 function indigo(){
